@@ -7,7 +7,7 @@ uses
     lista: array of integer;
     linha:string;
     caracter:char;
-    maior, nummaior;
+    maior, nummaior:integer;
 
 begin
     i:=0;

@@ -2,12 +2,12 @@ program project1;
 uses
   classes, sysutils,StrUtils;
 
-  var i, j,numero, erro:integer;
+  var i, j,numero, erro:longint;
     arquivo: textfile;
-    lista: array of integer;
+    lista: array of longint;
     linha:string;
     caracter:char;
-    maior, nummaior:integer;
+    maior, nummaior:longint;
 
 begin
     i:=0;
